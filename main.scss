@@ -17,3 +17,11 @@
     z-index: -1;
   }
 }
+
+@media (min-width: $breakpoint-large) {
+  .container__decoration {
+    height: 75%;
+    width: 92%;
+    object-fit: cover;
+  }
+}
