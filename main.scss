@@ -3,4 +3,14 @@
 
 .container {
   font-family: $font-primary;
+  background: $violet;
+
+  &__decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    z-index: -1;
+  }
 }

@@ -17,6 +17,15 @@
     <link href="./css/main.css" rel="stylesheet" />
   </head>
   <body class="container">
+    <picture>
+      <source srcset="./images/bg-desktop.svg" media="(min-width: 1200px)" />
+      <source srcset="./images/bg-mobile.svg" media="(max-width: 1200px)" />
+      <img
+        class="container__decoration"
+        src="./images/bg-mobile.svg"
+        alt="background decorations"
+      />
+    </picture>
     <header class="header">
       <img
         src="./images/logo.svg"
