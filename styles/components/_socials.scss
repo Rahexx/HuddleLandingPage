@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  width: 104px;
+  margin: 0 auto $space-40;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 27.5px;
+    border: 0.8px solid $white;
+    border-radius: 50%;
+  }
+
+  &__icon {
+    font-size: 16px;
+    color: $white;
+  }
+}
