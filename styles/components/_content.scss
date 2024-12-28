@@ -45,3 +45,52 @@
     font-weight: $font-weight-medium;
   }
 }
+
+@media (min-width: $breakpoint-large) {
+  .content {
+    display: flex;
+    gap: $space-60;
+    margin: 0 auto;
+    width: 89%;
+    max-width: 1275px;
+
+    &__mockUp {
+      flex-shrink: 0;
+      height: 369.75px;
+      width: 522px;
+    }
+
+    &__info {
+      align-items: flex-start;
+      margin: 0;
+      width: 390px;
+    }
+
+    &__title {
+      color: $white;
+      line-height: $line-height-36;
+      text-align: start;
+      font-size: $font-size-24;
+      font-weight: $font-weight-bold;
+    }
+
+    &__text {
+      margin: $space-16 0 $space-24;
+      color: $white;
+      line-height: $line-height-24;
+      text-align: start;
+      font-weight: $font-weight-medium;
+    }
+
+    &__register {
+      height: 40px;
+      width: 200px;
+      background: $white;
+      border-radius: 20px;
+      line-height: $line-height-18;
+      font-family: $font-secondary;
+      font-size: $font-size-12;
+      font-weight: $font-weight-medium;
+    }
+  }
+}
