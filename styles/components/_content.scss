@@ -43,6 +43,13 @@
     font-family: $font-secondary;
     font-size: $font-size-12;
     font-weight: $font-weight-medium;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $soft-magenta;
+      color: $white;
+    }
   }
 }
 
@@ -67,30 +74,40 @@
     }
 
     &__title {
-      color: $white;
-      line-height: $line-height-36;
       text-align: start;
-      font-size: $font-size-24;
-      font-weight: $font-weight-bold;
     }
 
     &__text {
-      margin: $space-16 0 $space-24;
-      color: $white;
-      line-height: $line-height-24;
       text-align: start;
-      font-weight: $font-weight-medium;
     }
 
     &__register {
-      height: 40px;
-      width: 200px;
-      background: $white;
-      border-radius: 20px;
-      line-height: $line-height-18;
-      font-family: $font-secondary;
-      font-size: $font-size-12;
-      font-weight: $font-weight-medium;
+      height: 56px;
+      border-radius: 28px;
+      font-size: $font-size-18;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .content {
+    &__info {
+      align-items: flex-start;
+      margin: 0;
+      width: 420px;
+    }
+
+    &__title {
+      line-height: $line-height-60;
+      text-align: start;
+      font-size: $font-size-40;
+    }
+
+    &__text {
+      margin: $space-24 0;
+      line-height: $line-height-27;
+      text-align: start;
+      font-size: $font-size-18;
     }
   }
 }
