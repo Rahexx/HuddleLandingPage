@@ -7,3 +7,14 @@
     width: 170px;
   }
 }
+
+@media (min-width: $breakpoint-large) {
+  .header {
+    margin: $space-64 $space-64 $space-104 $space-80;
+
+    &__logo {
+      height: 49px;
+      width: 200px;
+    }
+  }
+}
