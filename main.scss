@@ -1,0 +1,33 @@
+@import './styles/base/reset';
+@import './styles/utilities/variables';
+@import './styles/components/header';
+@import './styles/components/content';
+@import './styles/components/socials';
+
+.container {
+  font-family: $font-primary;
+  background: $violet;
+
+  &__decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    z-index: -1;
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  .container__decoration {
+    height: 75%;
+    width: 92%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .container__decoration {
+    height: 100%;
+  }
+}
