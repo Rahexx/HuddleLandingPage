@@ -25,3 +25,9 @@
     object-fit: cover;
   }
 }
+
+@media (min-width: $breakpoint-xl) {
+  .container__decoration {
+    height: 100%;
+  }
+}
