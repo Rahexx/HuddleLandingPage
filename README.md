@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Rahexx/HuddleLandingPage)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [LiveSite](https://rahexx.github.io/HuddleLandingPage/)
 
 ## My process
 
