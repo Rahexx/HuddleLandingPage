@@ -10,11 +10,13 @@
 
 @media (min-width: $breakpoint-large) {
   .header {
-    margin: $space-64 $space-64 $space-104 $space-80;
+    width: 89%;
+    margin: $space-64 auto $space-80;
 
     &__logo {
-      height: 49px;
-      width: 200px;
+      margin-left: $space-12;
+      height: 73.5px;
+      width: 300px;
     }
   }
 }

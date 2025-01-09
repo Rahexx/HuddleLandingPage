@@ -18,11 +18,13 @@
 
 @media (min-width: 992px) {
   .header {
-    margin: 64px 64px 104px 80px;
+    width: 89%;
+    margin: 64px auto 80px;
   }
   .header__logo {
-    height: 49px;
-    width: 200px;
+    margin-left: 12px;
+    height: 73.5px;
+    width: 300px;
   }
 }
 .content {
@@ -135,7 +137,7 @@
   }
   .content__info {
     width: 520px;
-    margin-top: 32px;
+    margin-top: 40px;
   }
   .content__title {
     padding-right: 32px;
@@ -205,7 +207,7 @@
 @media (min-width: 992px) {
   .container__decoration {
     height: 75%;
-    width: 92%;
+    width: 90%;
     object-fit: cover;
   }
 }
