@@ -18,8 +18,8 @@
 
 @media (min-width: 992px) {
   .header {
-    width: 89%;
-    margin: 64px auto 80px;
+    width: 92%;
+    margin: 56px auto 60px;
   }
   .header__logo {
     margin-left: 12px;
@@ -82,7 +82,7 @@
     display: flex;
     gap: 60px;
     margin: 0 auto;
-    width: 89%;
+    width: 92%;
     max-width: 1275px;
   }
   .content__mockUp {
@@ -207,7 +207,7 @@
 @media (min-width: 992px) {
   .container__decoration {
     height: 75%;
-    width: 90%;
+    width: 89%;
     object-fit: cover;
   }
 }
